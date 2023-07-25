@@ -1,0 +1,45 @@
+.container{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.content{
+    width: 33.3%;
+    height: 75px;
+}
+
+@media only screen and (max-width: 959px) {
+    [class*="content"] {
+      width: 50%;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    [class*="content"] {
+      width: 100%;
+    }
+}
+
+#red{
+    background:red;
+}
+
+#blue{
+    background:blue;
+}
+
+#green{
+    background:green;
+}
+
+#yellow{
+    background:yellow;
+}
+
+#purple{
+    background:purple;
+}
+
+#grey{
+    background:grey;
+}
